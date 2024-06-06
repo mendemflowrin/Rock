@@ -14,10 +14,12 @@ import {
   ScoreSpan,
   ItemsImagesContainer,
   PlayAgainButton,
+  PopUpButton,
   PopUpContainer,
   RulesImageContainer,
   RulesImage,
   CloseLineContainer,
+  CloseLineButton,
 } from './styledComponents'
 
 class Game extends Component {
@@ -159,4 +161,3 @@ class Game extends Component {
 }
 
 export default Game
-

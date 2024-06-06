@@ -92,7 +92,7 @@ export const CloseLineButton = styled.button`
     font-size: 25px;
     cursor: pointer;
 `
-export const CloseLineButton = styled.div`
+export const CloseLineContainer = styled.div`
     display: flex;
     flex-direction: row;
     justify-content:flex-end;
