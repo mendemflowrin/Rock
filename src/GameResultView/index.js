@@ -10,7 +10,7 @@ import {
 
 const GameResultView = props => {
   const {myChoice, apponentChoice, resultMessage, playAgain} = props
-  const {id, image} = apponentChoice
+  const {id, imageUrl} = apponentChoice
   const onClickPlayAgainButton = () => {
     playAgain()
   }
@@ -23,7 +23,7 @@ const GameResultView = props => {
         </ResultTextImgContainer>
         <ResultTextImgContainer>
           <ResultText>OPPONENT</ResultText>
-          <ResultImageItem src={image} alt="apponent choice" />
+          <ResultImageItem src={imageUrl} alt="apponent choice" />
         </ResultTextImgContainer>
       </ResultImagesContainer>
       <ResultText>{resultMessage}</ResultText>
